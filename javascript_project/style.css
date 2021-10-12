@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+}
+.todoTable {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+.inputText {
+	border: none;
+	outline: none;
+	color: royalblue;
+	padding: 5px;
+}
+.myForm {
+	border: 1px solid royalblue;
+	display: flex;
+	justify-content: center;
+}
+.btnSubmit {
+	border: none;
+	background-color: #153084;
+	color: white;
+	padding: 5px;
+	transition: 0.2s ease-in-out;
+}
+.btnSubmit:hover {
+	background-color: rgb(103, 126, 196);
+}
+.boxTable {
+	background-color: royalblue;
+	padding: 20px;
+}
+.list {
+	margin-top: 30px;
+	background-color: royalblue;
+	height: 250px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+table {
+	width: 100%;
+}
+tr {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	color: royalblue;
+	padding: 5px;
+	border-bottom: 2px solid royalblue !important;
+	align-items: center;
+}
+.done {
+	border: none;
+	background-color: white;
+	color: royalblue;
+	padding: 5px;
+}
+
+.del {
+	border: none;
+	background-color: white;
+	color: royalblue;
+	padding: 5px;
+}
+.stroke {
+	text-decoration: line-through;
+}
